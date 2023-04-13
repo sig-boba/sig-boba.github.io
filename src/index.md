@@ -10,7 +10,7 @@ layout: _base
 **Tuesday, April 18th**  
 **7 - 10pm**  (after the KubeCon lightning talks)  
 
-Add to calendar: <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MG03OHNsbTduNm5oamM1cG5qa283dXI3Z3MgOGxmZGt2MmwwdG05ZzhxcHA1MWhudWhxYjhAZw&amp;tmsrc=8lfdkv2l0tm9g8qpp51hnuhqb8%40group.calendar.google.com">Google</a> [.ics](/cal/sig-boba-ams.ics)
+Add to calendar: <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NzcwMzNrY2wwbXZqbnR2ZWpiNzNqMXB1bjYgOTQxZGQ3NjNjZGMyNzVlZjExMTY1NTRhMGZkZmVjY2VkYzMxMGUxOWI4MWRmMTUxNTQ2YjU1OGJmZmQyMjU0NkBn&tmsrc=941dd763cdc275ef1116554a0fdfeccedc310e19b81df151546b558bffd22546%40group.calendar.google.com">Google</a> [.ics](/cal/sig-boba-ams.ics)
 
 <add-to-calendar-button name="SIG Boba 🧋🍜 🎉"
   location="Hey Cha Tea Company"
