@@ -10,7 +10,16 @@ layout: _base
 **Tuesday, April 18th  
 7 - 10pm**  (after the KubeCon lightning talks)
 
-<div id="location" style="text-decoration:none; overflow:hidden;max-width:100%;width:440px;height:380px;">
+<add-to-calendar-button name="SIG Boba 🧋🍜 🎉"
+  location="Hey Cha Tea Company"
+  startDate="2023-04-18"
+  endDate="2023-04-16"
+  startTime="19:00"
+  endTime="22:00"
+  timeZone="Europe/Amsterdam"
+  options="'Apple','Google','iCal','Outlook.com','Microsoft 365','Microsoft Teams','Yahoo'"></add-to-calendar-button>
+
+<div id="location" style="text-decoration:none; overflow:hidden;max-width:100%;height:280px;">
     <div id="embedded-map-display" style="height:100%; width:100%;max-width:100%;">
         <iframe style="height:100%;width:100%;border:0;" frameborder="0"
             src="https://www.google.com/maps/embed/v1/place?q=Hey+Cha+Tea+Company,+Van+Leijenberghlaan,+Amsterdam,+Netherlands&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
