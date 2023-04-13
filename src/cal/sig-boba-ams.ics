@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+X-LIC-LOCATION:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20230418T190000
+DTEND;TZID=Europe/Amsterdam:20230418T220000
+DTSTAMP:20230413T083418Z
+ORGANIZER;CN=leigh:mailto:8lfdkv2l0tm9g8qpp51hnuhqb8@group.calendar.google.
+ com
+UID:0m78slm7n6nhjc5pnjko7ur7gs@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=leigh@null.net;X-NUM-GUESTS=0:mailto:leigh@null.net
+X-MICROSOFT-CDO-OWNERAPPTID:1626607534
+CREATED:20230413T083049Z
+DESCRIPTION:<h2><span>Food and drink are paid for &amp\; there is </span><e
+ m>no alcohol</em><span> at this event.</span><br></h2><p>We'll have music a
+ nd board games for everyone in addition to the food.</p><p>Bring your partn
+ er and/or kids! :)<br>Just have a conference badge to check your group in.<
+ /p><h2>How to Register</h2><p><big>Message us in the <a href="https://cloud
+ -native.slack.com/archives/C052LL415LP/">CNCF #sig-boba slack channel</a> t
+ o register.</big></p><p>The venue fits around 25 people\, so the first to a
+ rrive will immediately get in.<br>Check there for space if you are coming l
+ ater!</p><h2>Organizers</h2><ul><li><a href="https://twitter.com/capileigh"
+ >Leigh Capili</a></li><li><a href="https://twitter.com/kunalstwt">Kunal Kus
+ hwaha</a></li></ul><p>This event adopts the <a href="https://github.com/cnc
+ f/foundation/blob/main/code-of-conduct.md">CNCF Code of Conduct</a></p><h2>
+ Sponsor</h2><p>This community event is proudly sponsored by VMware.<br></p>
+LAST-MODIFIED:20230413T083416Z
+LOCATION:Hey Cha Tea Company\, Van Leijenberghlaan 140\, 1082 DC Amsterdam\
+ , Netherlands
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:SIG Boba 🧋🍜 🎉
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

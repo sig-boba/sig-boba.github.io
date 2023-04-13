@@ -7,8 +7,10 @@ layout: _base
 # SIG Boba 🧋🎉
 <big>The fun & safe cloud-native party for everyone :)</big>
 
-**Tuesday, April 18th  
-7 - 10pm**  (after the KubeCon lightning talks)
+**Tuesday, April 18th**  
+**7 - 10pm**  (after the KubeCon lightning talks)  
+
+Add to calendar: <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MG03OHNsbTduNm5oamM1cG5qa283dXI3Z3MgOGxmZGt2MmwwdG05ZzhxcHA1MWhudWhxYjhAZw&amp;tmsrc=8lfdkv2l0tm9g8qpp51hnuhqb8%40group.calendar.google.com">Google</a> [.ics](/cal/sig-boba-ams.ics)
 
 <add-to-calendar-button name="SIG Boba 🧋🍜 🎉"
   location="Hey Cha Tea Company"
