@@ -4,7 +4,7 @@ const { DateTime } = require("luxon");
 
 module.exports = function(eleventyConfig) {
   const input = "src"
-  const output = "dist"
+  const output = "docs"
   eleventyConfig.addPassthroughCopy(`${input}/img`);
 
   eleventyConfig.addPlugin(EleventyRenderPlugin);
