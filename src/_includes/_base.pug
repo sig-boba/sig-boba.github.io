@@ -4,6 +4,7 @@ title: SIG Boba
 banner:
   alt: "SIG Boba Logo: Phippy & Goldie excited about Bubble Tea & Ramen"
   image: /img/sig-boba-friends.jpg
+  hosted_url: https://sig-boba.github.io/img/sig-boba-friends.jpg
 ---
 
 doctype html
@@ -14,7 +15,8 @@ head
   meta(name='twitter:card' content='summary')
   meta(name='twitter:title' content='SIG Boba')
   meta(name='twitter:description' content='The fun & safe cloud-native party 🧋🍜')
-  meta(name='twitter:image' content='https://sig-boba.github.io/img/sig-boba-friends.jpg')
+  meta(name='twitter:image' content=banner.hosted_url)
+  meta(name='twitter:image:alt' content=banner.alt)
   meta(name='twitter:site' content='@capileigh')
 
   link(rel='stylesheet' href='https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css')
