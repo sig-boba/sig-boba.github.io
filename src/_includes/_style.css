@@ -1,11 +1,14 @@
 body{
     margin: 0;
-    background-color: #fffaf6;
+    background: linear-gradient(180deg, hsl(25, 74%, 87%) 0%, hsl(25, 74%, 99%) 100%);
+    /* background-color: #fffaf6; */
+    background-color: hsl(25, 74%, 96%);
+    /* background-color: #FAFCFF; */
 }
 
 @font-face {
     font-family: Roboto;
-    src: url(/wp-content/themes/twentytwenty/assets/fonts/Roboto-Regular.ttf);
+    src: local('Roboto'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format('woff2');
     font-weight: normal;
 }
 * {
@@ -44,11 +47,15 @@ a:hover, a:active {
     padding-right: 1em;
 }
 
+#content img {
+    max-width: 100%;
+}
+
 img#banner {
     width: 100%;
     /* max-height: min(30em, 30vw); */
     object-fit: cover;
-    border-radius: 0 0 1em 1em;
+    border-radius: 0 0 5em 5em;
 }
 
 nav ul {

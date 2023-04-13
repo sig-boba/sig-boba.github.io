@@ -2,6 +2,7 @@
 title: SIG Boba
 layout: _base
 ---
+<big>
 
 # SIG Boba 🧋🎉
 <big>The fun & safe cloud-native party for everyone :)</big>
