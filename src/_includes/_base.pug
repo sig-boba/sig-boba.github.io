@@ -1,0 +1,44 @@
+---
+title: SIG Boba
+
+banner:
+  alt: "SIG Boba Logo: Phippy & Goldie excited about Bubble Tea & Ramen"
+  image: /img/sig-boba-friends.jpg
+---
+
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css')
+  link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+  title #{title}
+body
+  #all
+    #main
+      nav
+        ul
+          li
+            a(href="/" aria-current=page.url=="/"?"page":undefined) SIG Boba
+          li.right
+              a(href="https://github.com/sig-boba/sig-boba.github.io")
+                img.social(alt="github" src="https://img.icons8.com/ios/512/github.png")
+          li.right
+              a(href="https://twitter.com/ TODO ")
+                img.social(alt="twitter" src="https://img.icons8.com/ios/512/twitter.png")
+          li.right
+              a(href="https://slack.com/ TODO ")
+                img.social(alt="slack" src="https://img.icons8.com/ios/512/slack.png")
+          li.right
+              a(href="https://linkedin.com/ TODO ")
+                img.social(alt="linkedin" src="https://img.icons8.com/ios/512/linkedin.png")
+      
+      img#banner(src=banner.image alt=banner.alt)
+      #content.
+        !{content}
+    footer
+      p#copyright
+        small © Copyright #{helpers.currentYear()} SIG Boba
+
+style(type="text/css")
+  include _style.css

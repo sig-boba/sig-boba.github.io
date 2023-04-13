@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    background-color: #fffaf6;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/wp-content/themes/twentytwenty/assets/fonts/Roboto-Regular.ttf);
+    font-weight: normal;
+}
+* {
+    font-family: "Roboto", Arial, sans-serif;
+    line-height: 1.25em;
+}
+
+a {
+    color: hsl(271, 76%, 53%);
+    text-decoration: none;
+}
+a:visited {
+    /* blueviolet darkened */
+    color: hsl(271, 65%, 35%);
+}
+a:hover, a:active {
+    background-color: hsl(300, 100%, 94%);
+    text-decoration: none;
+}
+
+#all {
+    max-width: max(50em, 60vw);
+    margin: auto;
+
+    position: relative;
+    min-height: 100vh;
+}
+
+#main {
+    /* overshoot footer */
+    padding-bottom: 5rem;
+}
+
+#content {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+img#banner {
+    width: 100%;
+    /* max-height: min(30em, 30vw); */
+    object-fit: cover;
+    border-radius: 0 0 1em 1em;
+}
+
+nav ul {
+    /* border-radius: 0.5em; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 1.2em;
+    background-color: hsl(286, 29%, 80%);
+}
+
+nav ul li {float: left;}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    border-radius: 0.5em;
+}
+
+nav ul li strong {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: rgb(61, 2, 71);
+}
+
+nav ul li a:hover:not([aria-current="page"]) {
+    background-color: hsl(286, 30%, 75%);
+}
+
+[aria-current]:not([aria-current="false"]) {
+    /* background-color: hsl(286, 30%, 70%); */
+    background-color: hsl(286, 29%, 80%);
+    font-weight: bold;
+}
+
+nav ul li.right {
+    float: right;
+}
+
+img.social {
+    height: 1.2em;
+    width: 1.2em;
+    display: block;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#copyright {
+    text-align: right;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+td {
+    padding: 0.5em;
+}
+
+/* Color the + - diff markers */
+.token.deleted {
+    background-color: hsl(350deg 100% 70% / 30%);
+}
+.token.inserted {
+    background-color: hsl(120deg 73% 75% / 35%);
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* Optional: full-width background color */
+/*.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+    display: block;
+}*/
