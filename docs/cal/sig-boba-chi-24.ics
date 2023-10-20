@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+X-LIC-LOCATION:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20231107T190000
+DTEND;TZID=America/Chicago:20231107T220000
+DTSTAMP:20231020T132431Z
+ORGANIZER;CN=SIG Boba:mailto:941dd763cdc275ef1116554a0fdfeccedc310e19b81df1
+ 51546b558bffd22546@group.calendar.google.com
+UID:470mj5ji4eednslcstlm0dfr4i@google.com
+X-MICROSOFT-CDO-OWNERAPPTID:-1954745335
+CLASS:PUBLIC
+CREATED:20231018T013734Z
+DESCRIPTION:<h2>Food and drink are paid for &amp\; there is <em>no alcohol<
+ /em> at this event.<br></h2><p>We'll have music and board games for everyon
+ e in addition to the food.</p><p>Bring your partner and/or kids! :)<br>Just
+  have a conference badge to check your group in.</p><h2>How to Register</h2
+ ><p><big>Message us in the <a href="https://cloud-native.slack.com/archives
+ /C052LL415LP/"><u>CNCF #sig-boba slack channel</u></a> to register.</big></
+ p><p>The venue fits around 40 people\, so the first to arrive will immediat
+ ely get in.<br>Check there for space if you are coming later!</p><h2>Organi
+ zers</h2><ul><li><a href="https://twitter.com/capileigh"><u>Leigh Capili</u
+ ></a></li><li><a href="https://twitter.com/kunalstwt"><u>Kunal Kushwaha</u>
+ </a></li></ul><p>This event adopts the <a href="https://github.com/cncf/fou
+ ndation/blob/main/code-of-conduct.md"><u>CNCF Code of Conduct</u></a></p><h
+ 2>Sponsor</h2><p>This community event is proudly sponsored by the CNCF\, Ne
+ w Relic\, and VMware.</p>
+LAST-MODIFIED:20231020T132428Z
+LOCATION:Tsaocaa\, 2026 S Clark St unit g\, Chicago\, IL 60616\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:SIG Boba 🧋 🍗🍟🍪  🎉
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

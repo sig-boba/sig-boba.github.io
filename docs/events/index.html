@@ -1,0 +1,154 @@
+<!DOCTYPE html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="SIG Boba"><meta name="twitter:description" content="The fun &amp; safe cloud-native party 🧋🍜"><meta name="twitter:image" content="https://sig-boba.github.io/img/sig-boba-friends.jpg"><meta name="twitter:image:alt" content="SIG Boba Logo: Phippy &amp; Goldie excited about Bubble Tea &amp; Ramen"><meta name="twitter:site" content="@capileigh"><link rel="stylesheet" href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><title>SIG Boba: Events</title><script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script></head><body><div id="all"><div id="main"><nav><ul><li><a href="/">SIG Boba</a></li><li><a href="/events/" aria-current="page">Events</a></li><li class="right"><a href="https://cloud-native.slack.com/archives/C052LL415LP/"><img class="social" alt="slack" src="https://img.icons8.com/ios/512/slack.png"></a></li><li class="right"><a href="https://twitter.com/sigboba"><img class="social" alt="twitter" src="https://img.icons8.com/ios/512/twitter.png"></a></li><li class="right"><a href="https://linkedin.com/ TODO "><img class="social" alt="linkedin" src="https://img.icons8.com/ios/512/linkedin.png"></a></li><li class="right"><a href="https://github.com/sig-boba/sig-boba.github.io"><img class="social" alt="github" src="https://img.icons8.com/ios/512/github.png"></a></li></ul></nav><img id="banner" src="/img/sig-boba-friends.jpg" alt="SIG Boba Logo: Phippy &amp; Goldie excited about Bubble Tea &amp; Ramen"><div id="content"><p>Here are some official SIG Boba events:</p>
+<ul>
+<li><a href="/">Chicago: KubeCon NA '23</a></li>
+<li><a href="/events/ams-kubecon-eu-23">Amsterdam: KubeCon EU '23</a></li>
+</ul>
+<p>If you would like to organize your own SIG Boba gethering (large or small)
+our ask is that you are inclusive of others and use the <a href="https://github.com/cncf/foundation/blob/main/code-of-conduct.md">CNCF Code of Conduct</a> for the event.</p>
+<p>Many informal gatherings have already taken place in the community from Toronto to Shanghai.</p>
+<p>Please reach out on Twitter or Slack so that we can promote your meetup :)<br>
+🧋</p>
+</div></div><footer><p id="copyright"><small>© Copyright 2023 SIG Boba</small></p></footer></div></body><style type="text/css">body{
+    margin: 0;
+    background: linear-gradient(180deg, hsl(25, 74%, 87%) 0%, hsl(25, 74%, 99%) 100%);
+    /* background-color: #fffaf6; */
+    background-color: hsl(25, 74%, 96%);
+    /* background-color: #FAFCFF; */
+}
+
+@font-face {
+    font-family: Roboto;
+    src: local('Roboto'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format('woff2');
+    font-weight: normal;
+}
+* {
+    font-family: Arial, sans-serif;
+    line-height: 1.25em;
+}
+
+a {
+    color: hsl(271, 76%, 53%);
+    text-decoration: none;
+}
+a:visited {
+    /* blueviolet darkened */
+    color: hsl(271, 65%, 35%);
+}
+a:hover, a:active {
+    background-color: hsl(300, 100%, 94%);
+    text-decoration: none;
+}
+
+#all {
+    max-width: max(50em, 60vw);
+    margin: auto;
+
+    position: relative;
+    min-height: 100vh;
+}
+
+#main {
+    /* overshoot footer */
+    padding-bottom: 5rem;
+}
+
+#content {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#content img {
+    max-width: 100%;
+}
+
+img#banner {
+    width: 100%;
+    /* max-height: min(30em, 30vw); */
+    object-fit: cover;
+    border-radius: 0 0 5em 5em;
+}
+
+nav ul {
+    /* border-radius: 0.5em; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 1.2em;
+    background-color: hsl(286, 29%, 80%);
+}
+
+nav ul li {float: left;}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    border-radius: 0.5em;
+}
+
+nav ul li strong {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: rgb(61, 2, 71);
+}
+
+nav ul li a:hover:not([aria-current="page"]) {
+    background-color: hsl(286, 30%, 75%);
+}
+
+[aria-current]:not([aria-current="false"]) {
+    /* background-color: hsl(286, 30%, 70%); */
+    background-color: hsl(286, 29%, 80%);
+    font-weight: bold;
+}
+
+nav ul li.right {
+    float: right;
+}
+
+img.social {
+    height: 1.2em;
+    width: 1.2em;
+    display: block;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#copyright {
+    text-align: right;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+td {
+    padding: 0.5em;
+}
+
+/* Color the + - diff markers */
+.token.deleted {
+    background-color: hsl(350deg 100% 70% / 30%);
+}
+.token.inserted {
+    background-color: hsl(120deg 73% 75% / 35%);
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* Optional: full-width background color */
+/*.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+    display: block;
+}*/
+</style>
