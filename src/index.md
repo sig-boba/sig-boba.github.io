@@ -10,8 +10,8 @@ layout: _base
 **Tuesday, November 7th**  
 **7 - 10pm**
 
-Calender invites: 
-<add-to-calendar-button buttonStyle="date"
+Calendar invites:  <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NDcwbWo1amk0ZWVkbnNsY3N0bG0wZGZyNGkgOTQxZGQ3NjNjZGMyNzVlZjExMTY1NTRhMGZkZmVjY2VkYzMxMGUxOWI4MWRmMTUxNTQ2YjU1OGJmZmQyMjU0NkBn&amp;tmsrc=941dd763cdc275ef1116554a0fdfeccedc310e19b81df151546b558bffd22546%40group.calendar.google.com">Google</a>  [.ics](/cal/sig-boba-chi-24.ics)  
+<add-to-calendar-button buttonStyle="default"
   name="SIG Boba 🧋🍜 🎉"
   location="2026 S Clark St unit g, Chicago, IL 60616, United States"
   startDate="2023-11-07"
@@ -20,7 +20,6 @@ Calender invites:
   endTime="22:00"
   timeZone="America/Chicago"
   options="'Apple','Google','iCal','Outlook.com','Microsoft 365','Microsoft Teams','Yahoo'"></add-to-calendar-button>
-&nbsp;<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NDcwbWo1amk0ZWVkbnNsY3N0bG0wZGZyNGkgOTQxZGQ3NjNjZGMyNzVlZjExMTY1NTRhMGZkZmVjY2VkYzMxMGUxOWI4MWRmMTUxNTQ2YjU1OGJmZmQyMjU0NkBn&amp;tmsrc=941dd763cdc275ef1116554a0fdfeccedc310e19b81df151546b558bffd22546%40group.calendar.google.com">Google</a> [.ics](/cal/sig-boba-chi-24.ics)
 
 <div id="location" style="text-decoration:none; overflow:hidden;max-width:100%;height:280px;">
     <div id="embedded-map-display" style="height:100%; width:100%;max-width:100%;">
