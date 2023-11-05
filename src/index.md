@@ -50,14 +50,9 @@ Check there for space if you are coming later!
 This event adopts the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md)
 
 ## Sponsors
-This community event is proudly sponsored by the CNCF, New Relic, and VMware.
+This community event is proudly sponsored by the CNCF.
 
 ![CNCF Logo](https://www.cncf.io/wp-content/uploads/2022/07/cncf-color-bg.svg)  
-
-![New Relic Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/New_Relic_logo.png/1600px-New_Relic_logo.png)  
-
-![VMware Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Vmware.svg/512px-Vmware.svg.png)  
-
 
 </br>
 </br>
