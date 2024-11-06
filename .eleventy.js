@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig) {
   const output = "docs"
   eleventyConfig.addPassthroughCopy(`${input}/img`);
   eleventyConfig.addPassthroughCopy(`${input}/cal`);
+  eleventyConfig.addPassthroughCopy(`${input}/.well-known`);
 
   eleventyConfig.addPlugin(EleventyRenderPlugin);
 
