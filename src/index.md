@@ -10,16 +10,12 @@ layout: _base
 **Wednesday, November 13th**  
 **7 - 10pm**
 
-<iframe
-  src="https://lu.ma/embed/event/evt-JqwoFnIubVh5AHm/simple"
-  width="100%"
-  height="450"
-  frameborder="0"
-  style="border: 1px solid #bfcbda88; border-radius: 4px;"
-  allowfullscreen=""
-  aria-hidden="false"
-  tabindex="0"
-></iframe>
+<a href="https://lu.ma/event/evt-JqwoFnIubVh5AHm"
+  class="luma-checkout--button"
+  data-luma-action="checkout"
+  data-luma-event-id="evt-JqwoFnIubVh5AHm">Register for Event</a>
+
+<script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js"></script>
 
 <div id="location" style="text-decoration:none; overflow:hidden;max-width:100%;height:280px;">
     <div id="embedded-map-display" style="height:100%; width:100%;max-width:100%;">
@@ -29,15 +25,18 @@ layout: _base
     </div>
 </div>
 
-Come hang out! Have some sweet/savory **crepes** 🍗 and a **bubble tea** 🧋  
-We'll have vegan
-Food and drink are paid for & there is _no alcohol_ at this event.
+Come hang out!
+The menu includes sweet and savory crepes + several kinds of tea, juice, and toppings. 🧋
+We'll have board games and Mario Kart -- food will be served by [Millcrêpes](https://millcrepescafe.com/menu).
+There is gluten-free batter, as well as vegan and kosher options. 
 
-We'll have music and board games for everyone in addition to the food.
+Bring your partner and/or kids! :)
+Register at the [luma](https://lu.ma/4bs6de35) page.
+Just show your Luma ticket to check your group in.
 
+Bringing your badge is encouraged!
 
-The venue fits around 70 people, so the first to arrive will immediately get in.  
-Check there for space if you are coming later!
+The venue fits around 70 people at a time, and the first to arrive will immediately get in.
 
 ## Connect with others!
 <big>Join us in the [CNCF #sig-boba slack channel](https://cloud-native.slack.com/archives/C052LL415LP/)</big>
@@ -47,7 +46,7 @@ This community event is proudly sponsored by [Flox](https://flox.dev).
 
 Flox is an open source project ([flox/flox](https://github.com/flox/flox)) focused on reshaping the package manager to work better for teams instead of machines.
 
-![Flox Logo](./img/flox-black.png)  
+![Flox Logo](/img/flox-black.png)  
 
 ## Organizers
  - [Leigh Capili](https://twitter.com/capileigh)

@@ -8,6 +8,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy(`${input}/img`);
   eleventyConfig.addPassthroughCopy(`${input}/cal`);
   eleventyConfig.addPassthroughCopy(`${input}/.well-known`);
+  eleventyConfig.addPassthroughCopy(`${input}/_config.yml`);
 
   eleventyConfig.addPlugin(EleventyRenderPlugin);
 
