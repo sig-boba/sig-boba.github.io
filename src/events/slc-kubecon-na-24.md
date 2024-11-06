@@ -12,7 +12,7 @@ layout: _base
 
 <iframe
   src="https://lu.ma/embed/event/evt-JqwoFnIubVh5AHm/simple"
-  width="100%"
+  width="600"
   height="450"
   frameborder="0"
   style="border: 1px solid #bfcbda88; border-radius: 4px;"
@@ -48,14 +48,13 @@ This community event is proudly sponsored by [Flox](https://flox.dev).
 Flox is an open source project ([flox/flox](https://github.com/flox/flox)) focused on reshaping the package manager to work better for teams instead of machines.
 
 ![Flox Logo](./img/flox-black.png)  
+![CNCF Logo](https://www.cncf.io/wp-content/uploads/2022/07/cncf-color-bg.svg)  
 
 ## Organizers
  - [Leigh Capili](https://twitter.com/capileigh)
  - [Kunal Kushwaha](https://twitter.com/kunalstwt)
 
 This event adopts the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md)
-
-![CNCF Logo](https://www.cncf.io/wp-content/uploads/2022/07/cncf-color-bg.svg)  
 
 </br>
 </br>

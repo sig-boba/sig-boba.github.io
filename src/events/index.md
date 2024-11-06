@@ -4,7 +4,8 @@ layout: _base
 ---
 
 Here are some official SIG Boba events:
-- [Chicago: KubeCon NA '23](/)
+- [Salt Lake City: KubeCon NA '24](/events/slc-kubecon-na-24)
+- [Chicago: KubeCon NA '23](/events/chi-kubecon-na-23)
 - [Amsterdam: KubeCon EU '23](/events/ams-kubecon-eu-23)
 
 If you would like to organize your own SIG Boba gethering (large or small)
