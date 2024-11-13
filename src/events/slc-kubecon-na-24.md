@@ -8,7 +8,7 @@ layout: _base
 <big>The fun & safe cloud-native party for everyone :)</big>
 
 **Wednesday, November 13th**  
-**7 - 10pm**
+**8 - 11pm**
 
 <a href="https://lu.ma/event/evt-JqwoFnIubVh5AHm"
   class="luma-checkout--button"
